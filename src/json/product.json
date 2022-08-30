@@ -1,0 +1,32 @@
+{
+    "listProduct": [
+        {
+            "id": 123,
+            "name": "RWANDA Beans",
+            "price": 299900,
+            "image": "../image/imgProduct (1).png",
+            "stok": 200
+        },
+        {
+            "id": 124,
+            "name": "ETHIOPIA Beans",
+            "price": 240900,
+            "image": "../image/imgProduct (2).png",
+            "stok": 200
+        },
+        {
+            "id": 125,
+            "name": "GUETEMALA Beans",
+            "price": 240900,
+            "image": "../image/imgProduct (3).png",
+            "stok": 200
+        },
+        {
+            "id": 126,
+            "name": "NICARAGUA Beans",
+            "price": 240900,
+            "image": "../image/imgProduct (4).png",
+            "stok": 200
+        }
+    ]
+}
