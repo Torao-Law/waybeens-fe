@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import product from "../json/product.json";
 
 // utils
-import formatPrice from "../utils/fromatPrice";
+import formatPrice from "../utils/formatPrice";
 
 function Card() {
   return (
