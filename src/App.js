@@ -7,6 +7,10 @@ import "./assets/css/style.css";
 import LandingPage from "./pages/LandingPage";
 import DetailProduct from "./pages/DetailProduct";
 import InfoOrder from "./pages/InfoOrder";
+import Checkout from "./pages/Checkout";
+import AddProuct from "./pages/Admin/AddProuct";
+import ListProduct from "./pages/Admin/ListProduct";
+import Dashboard from "./pages/Admin/Dashboard";
 
 function App() {
   return (
@@ -14,7 +18,11 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/detailProduct/:id" element={<DetailProduct />} />
-        <Route path="/InfoOrder" element={<InfoOrder />} />
+        <Route path="/infoOrder" element={<InfoOrder />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/admin/addProduct" element={<AddProuct />} />
+        <Route path="/admin/listProduct" element={<ListProduct />} />
+        <Route path="/admin/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );

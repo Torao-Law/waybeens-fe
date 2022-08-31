@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../elements/Button.css";
 
 //element
 import Button from "../elements/Button";
@@ -31,9 +30,13 @@ function Header() {
   return (
     <div style={{ boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.25)" }}>
       <div className="container">
-        <div className="d-flex justify-content-between py-3">
+        <div className="d-flex justify-content-between py-2">
           <div className="img-header" style={{ width: 163, height: 47 }}>
-            <img src={LogoBrand} alt="logo-brand" style={{ width: "100%" }} />
+            <img
+              src={LogoBrand}
+              alt="logo-brand"
+              style={{ width: "100%", height: 47 }}
+            />
           </div>
           <div className="d-flex button-navigate">
             <ModalLogin

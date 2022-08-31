@@ -11,7 +11,11 @@ function Card() {
   return (
     <div className="container d-flex flex-row justify-content-between my-5">
       {product.listProduct.map((item, index) => (
-        <Link key={item.id} to={`/detailProduct/ ${item.id}`}>
+        <Link
+          key={item.id}
+          to={`/detailProduct/ ${item.id}`}
+          style={{ textDecoration: "none" }}
+        >
           <div
             className="card"
             style={{
